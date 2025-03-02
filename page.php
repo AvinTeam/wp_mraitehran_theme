@@ -57,6 +57,5 @@
 
     mrtai_layout('home/short_edu');
     mrtai_layout('home/contact');
-    mrtai_layout('home/footer');
 
 get_footer(); ?>

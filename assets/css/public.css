@@ -178,6 +178,10 @@ a {
     font-size: 52px;
 }
 
+.fw-900 {
+    font-weight: 900;
+}
+
 header .nav-item .active,
 header .nav-item .nav-link:hover {
     background-color: var(--secondary-color) !important;
@@ -192,11 +196,18 @@ header .nav-item .nav-link:hover {
     background-size: 30%;
 }
 
-.bg-robot{
+.bg-robot {
     background: url('../image/bg-robot.png');
     background-repeat: no-repeat;
     background-position-x: center;
-    background-size: 100%; 
+    background-size: 100%;
+}
+
+
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #FFFFFF;
 }
 
 

@@ -17,50 +17,53 @@
 
     <div class="swiper sliderSwiper w-100">
         <div class="swiper-wrapper">
-
-
-            <div  class="swiper-slide my-auto read_hero bg-primary">
+            <div class="swiper-slide my-auto read_hero bg-primary">
                 <div class="mrtai_slider mx-auto d-flex flex-row justify-content-center align-items-center">
 
                     <div class="col-9 d-none d-lg-flex flex-row justify-content-center align-items-end ">
 
-                    <img style="height: 800px; width: 362px;" src="<?php echo mrtai_image('slider-boy.png') ?> ">
-                    <img style="height: 345px; width: 300px;" src="<?php echo mrtai_image('robot.png') ?> ">
-                    <img style="height: 800px; width:622px; margin-right: -100px;" src="<?php echo mrtai_image('slider-girl.png') ?> ">
+                        <img style="height: 800px; width: 362px;" src="<?php echo mrtai_image('slider-boy.png') ?> ">
+                        <img style="height: 345px; width: 300px;" src="<?php echo mrtai_image('robot.png') ?> ">
+                        <img style="height: 800px; width:622px; margin-right: -100px;"
+                            src="<?php echo mrtai_image('slider-girl.png') ?> ">
                     </div>
                     <div class="col-lg-3 col-12 d-flex flex-column justify-content-end my-3">
                         <div class="text-end"><img class=" w-25" src="<?php echo mrtai_image('new-news.png') ?> "></div>
                         <h2 class="text-white text-end fw-bold f-52px">فرصت ثبت نام تمدید شد</h2>
-                        <p class="text-white text-end text-md-end f-22px">علاقه مندان میتوانن تا پایان اسفندماه برای ثبت نام
+                        <p class="text-white text-end text-md-end f-22px">علاقه مندان میتوانن تا پایان اسفندماه برای ثبت
+                            نام
                             در
                             جشنواره به وب
                             سایت
                             مراجعه کنند</p>
                         <div class="d-flex flex-row justify-content-between align-items-center w-100 gap-3">
-                            <a href="/panel" id="panellogin" class="btn btn-outline-light w-100 py-3 f-22px fw-bold">ثبت نام</a>
+                            <a href="/panel" id="panellogin" class="btn btn-outline-light w-100 py-3 f-22px fw-bold">ثبت
+                                نام</a>
                             <a href="/panel" class="btn btn-warning w-100 text-primary py-3 f-22px fw-bold">ورود </a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div  class="swiper-slide  my-auto read_hero bg-pink">
+            <div class="swiper-slide  my-auto read_hero bg-pink">
                 <div class="mrtai_slider mx-auto d-flex flex-row justify-content-center align-items-center">
 
-                    <div class="col-9 d-none d-lg-flex flex-row justify-content-center align-items-center h-800px  " >
+                    <div class="col-9 d-none d-lg-flex flex-row justify-content-center align-items-center h-800px  ">
 
-                    <img class="w-50" src="<?php echo mrtai_image('slider-robot2.png') ?> ">
+                        <img class="w-50" src="<?php echo mrtai_image('slider-robot2.png') ?> ">
                     </div>
                     <div class="col-lg-3 col-12 d-flex flex-column justify-content-end my-3">
 
                         <div class="text-end"><img class=" w-25" src="<?php echo mrtai_image('new-news.png') ?> "></div>
                         <h2 class="text-white text-end fw-bold f-52px">آموزش</h2>
-                        <p class="text-white text-end text-md-end f-22px">علاقه مندان میتوانن تا پایان اسفندماه برای ثبت نام
+                        <p class="text-white text-end text-md-end f-22px">علاقه مندان میتوانن تا پایان اسفندماه برای ثبت
+                            نام
                             در
                             جشنواره به وب
                             سایت
                             مراجعه کنند</p>
                         <div class="d-flex flex-row justify-content-between align-items-center w-100 gap-3">
-                            <a href="/panel" id="panellogin" class="btn btn-outline-light w-100 py-3 f-22px fw-bold">ثبت نام</a>
+                            <a href="/panel" id="panellogin" class="btn btn-outline-light w-100 py-3 f-22px fw-bold">ثبت
+                                نام</a>
                             <a href="/panel" class="btn btn-warning w-100 text-primary py-3 f-22px fw-bold">ورود </a>
                         </div>
                     </div>
@@ -110,11 +113,11 @@
                     </div>
                 </div>
             </div>
-
             <div class="swiper-slide bg-robot my-auto bg-primary">
                 <div class="mrtai_slider mx-auto d-flex flex-row justify-content-center align-items-center">
 
-                    <div class="col-9 d-none d-lg-flex flex-row justify-content-center align-items-center h-800px pb-5   ">
+                    <div
+                        class="col-9 d-none d-lg-flex flex-row justify-content-center align-items-center h-800px pb-5   ">
 
 
                         <img style="height: 664px; width: 609px;" src="<?php echo mrtai_image('slider-robot2.png') ?> ">
@@ -139,45 +142,37 @@
                     </div>
                 </div>
             </div>
-            <div  class="swiper-slide my-auto read_hero bg-secondary">
+            <div class="swiper-slide my-auto read_hero bg-secondary">
                 <div class="mrtai_slider mx-auto d-flex flex-row justify-content-center align-items-center">
 
                     <div class="col-8 d-none d-lg-flex flex-row justify-content-center align-items-end h-800px ">
                         <img style="height: 700px; width: 369px;" src="<?php echo mrtai_image('slider-s-girl.png') ?> ">
-                        <img style="height: 345px; width: 300px; margin-bottom: 30px;" src="<?php echo mrtai_image('robot.png') ?> ">
-                        <img style="height: 700px; width: 277px; margin-right: -100px;" src="<?php echo mrtai_image('slider-boy-tablet.png') ?> ">
+                        <img style="height: 345px; width: 300px; margin-bottom: 30px;"
+                            src="<?php echo mrtai_image('robot.png') ?> ">
+                        <img style="height: 700px; width: 277px; margin-right: -100px;"
+                            src="<?php echo mrtai_image('slider-boy-tablet.png') ?> ">
                     </div>
                     <div class="col-lg-4 col-12 d-flex flex-column justify-content-end my-3">
-                        <div class="text-end"><img class=" w-25" src="<?php echo mrtai_image('new-news2.png') ?> "></div>
+                        <div class="text-end"><img class=" w-25" src="<?php echo mrtai_image('new-news2.png') ?> ">
+                        </div>
                         <h2 class="text-white text-end fw-bold f-52px">فرصت ثبت نام تمدید شد</h2>
-                        <p class="text-white text-end text-md-end f-22px">علاقه مندان میتوانن تا پایان اسفندماه برای ثبت نام
+                        <p class="text-white text-end text-md-end f-22px">علاقه مندان میتوانن تا پایان اسفندماه برای ثبت
+                            نام
                             در
                             جشنواره به وب
                             سایت
                             مراجعه کنند</p>
                         <div class="d-flex flex-row justify-content-between align-items-center w-100 gap-3">
-                            <a href="/panel" id="panellogin" class="btn w-100 py-3 f-22px fw-bold btn-outline-pink">ثبت نام</a>
-                            <a href="/panel" class="btn btn-warning w-100 text-primary py-3 f-22px fw-bold bg-pink">ورود </a>
+                            <a href="/panel" id="panellogin" class="btn w-100 py-3 f-22px fw-bold btn-outline-pink">ثبت
+                                نام</a>
+                            <a href="/panel" class="btn btn-warning w-100 text-primary py-3 f-22px fw-bold bg-pink">ورود
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-
-
         </div>
-
     </div>
-
-
 </div>
 
 
@@ -227,13 +222,19 @@
 <div class="bg-primary py-5">
 
 
-    <div class="container  text-center">
-        <a href=""><img class="p-1 my-2 mrtai-cat-img" src="<?php echo mrtai_image('cat-graphics.png') ?>"></a>
-        <a href=""><img class="p-1 my-2 mrtai-cat-img" src="<?php echo mrtai_image('cat-programming.png') ?>"></a>
-        <a href=""><img class="p-1 my-2 mrtai-cat-img" src="<?php echo mrtai_image('cat-game.png') ?>"></a>
-        <a href=""><img class="p-1 my-2 mrtai-cat-img" src="<?php echo mrtai_image('cat-image.png') ?>"></a>
-        <a href=""><img class="p-1 my-2 mrtai-cat-img" src="<?php echo mrtai_image('cat-text.png') ?>"></a>
-        <a href=""><img class="p-1 my-2 mrtai-cat-img" src="<?php echo mrtai_image('cat-music.png') ?>"></a>
+    <div class="container text-center">
+        <a href="/category/edu/image-training/"><img class="p-1 my-2 mrtai-cat-img"
+                src="<?php echo mrtai_image('cat-image.png') ?>"></a>
+        <a href="/category/edu/graphics-training/"><img class="p-1 my-2 mrtai-cat-img"
+                src="<?php echo mrtai_image('cat-graphics.png') ?>"></a>
+        <a href="/category/edu/programming-training/"><img class="p-1 my-2 mrtai-cat-img"
+                src="<?php echo mrtai_image('cat-programming.png') ?>"></a>
+        <a href="/category/edu/digital-game-training/"><img class="p-1 my-2 mrtai-cat-img"
+                src="<?php echo mrtai_image('cat-game.png') ?>"></a>
+        <a href="/category/edu/teaching-correspondence/"><img class="p-1 my-2 mrtai-cat-img"
+                src="<?php echo mrtai_image('cat-text.png') ?>"></a>
+        <a href="/category/edu/music-education/"><img class="p-1 my-2 mrtai-cat-img"
+                src="<?php echo mrtai_image('cat-music.png') ?>"></a>
     </div>
 </div>
 
@@ -372,8 +373,8 @@
                                 echo '<button  data-filter="category' . $term->term_id . '" class="mpcategory border border-1 rounded border-warning p-2">' . $term->name . '</button>';
 
                                 $query = new WP_Query([
-                                    'cat'            => $term->term_id, // گرفتن پست‌های این زیر دسته
-                                    'posts_per_page' => 6,              // تعداد پست‌ها
+                                    'cat'            => $term->term_id,
+                                    'posts_per_page' => 6,
                                  ]);
 
                                 if ($query->have_posts()) {

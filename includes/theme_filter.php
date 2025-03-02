@@ -22,3 +22,8 @@ function mrtai_title_filter($title)
 }
 add_filter('wp_title', 'mrtai_title_filter');
 
+
+add_filter('get_the_archive_title_prefix', function ($prefix) {
+
+    return '';
+});

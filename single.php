@@ -10,8 +10,43 @@
     </div>
     <div class="col-12 col-lg-4">
 
+        <?php
+            $sidebar_title = "اخبار";
+            $sidebar_slug  = "news";
+
+            // دریافت دسته‌بندی‌های پست فعلی
+            $categories = get_the_category();
+
+            if ($categories) {
+                // دریافت اولین دسته‌بندی (دسته‌بندی اصلی)
+                $current_category = $categories[ 0 ];
+
+                // بررسی اینکه آیا این دسته‌بندی والد دارد یا خیر
+                if ($current_category->parent) {
+                    // دریافت اطلاعات دسته‌بندی والد
+                    $parent_category = get_category($current_category->parent);
+                    $parent_slug     = $parent_category->slug;
+                } else {
+                    $parent_slug = $current_category->slug;
+                }
+
+                if ($parent_slug == 'gallery') {
+                    $sidebar_title = "چند رسانه ای";
+                    $sidebar_slug  = "gallery";
+                } elseif ($parent_slug == 'edu') {
+
+                    $sidebar_title = "چند آموزش";
+                    $sidebar_slug  = 'edu';
+
+                }
+
+            }
+
+        ?>
+
         <div class=" d-flex flex-row justify-content-start align-items-center p-3">
-            <span class="text-white text-center py-2 px-5 f-22px fw-bold bg-warning rounded-5">سایر اخبار</span>
+            <span class="text-white text-center py-2 px-5 f-22px fw-bold bg-warning rounded-5">سایر
+                <?php echo $sidebar_title ?></span>
         </div>
 
         <div class="d-flex flex-column justify-content-center px-3 gap-3 ">
@@ -19,7 +54,8 @@
                 $args = [
                     'post_type'      => 'post',
                     'posts_per_page' => 4,
-                    'category_name'  => 'news',
+                    'category_name'  => $sidebar_slug,
+                    'orderby'        => 'rand',
                  ];
                 $query = new WP_Query($args);
                 if ($query->have_posts()) {
@@ -59,6 +95,5 @@
 
     mrtai_layout('home/short_edu');
     mrtai_layout('home/contact');
-    mrtai_layout('home/footer');
 
 get_footer(); ?>
