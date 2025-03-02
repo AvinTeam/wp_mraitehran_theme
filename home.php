@@ -246,9 +246,9 @@
         </div>
         <div class="row row-cols-2 row-cols-lg-3 justify-content-between align-items-center">
             <a class="col py-3" href="/panel"><img class="w-100" src="<?php echo mrtai_image('register.png') ?>"></a>
-            <a id="qanda" class="col py-3" href="/frequently-asked-questions"><img class="w-100"
+            <a id="qanda" class="col py-3" href="/category/edu/"><img class="w-100"
                     src="<?php echo mrtai_image('q-and-a.png') ?>"></a>
-            <a class="col py-3" href="/frequently-asked-questions"><img class="w-100"
+            <a class="col py-3" href="/آیین-نامه-ها/"><img class="w-100"
                     src="<?php echo mrtai_image('asar.png') ?>"></a>
         </div>
         <div class="row justify-content-center align-items-center py-3 mrtai-row d-none">

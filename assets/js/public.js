@@ -87,9 +87,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
 
-    new Swiper(".sliderSwiper", {
+    const mySwiper = new Swiper(".sliderSwiper", {
         spaceBetween: 0,
         slidesPerView: 1,
         freeMode: true,
@@ -106,6 +106,22 @@ document.addEventListener("DOMContentLoaded", function() {
             prevEl: ".swiper-button-prev",
         },
     });
+
+    // متوقف کردن autoplay وقتی موس روی اسلایدر میرود
+    mySwiper.el.addEventListener('mouseenter', () => {
+        mySwiper.autoplay.stop();
+    });
+
+    // شروع مجدد autoplay وقتی موس از اسلایدر خارج میشود
+    mySwiper.el.addEventListener('mouseleave', () => {
+        mySwiper.autoplay.start();
+    });
+
+
+
+
+
+
 });
 
 jQuery(document).ready(function ($) {

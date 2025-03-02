@@ -2,7 +2,7 @@
 date_default_timezone_set('Asia/Tehran');
 
 (defined('ABSPATH')) || exit;
-define('MRTAI_VERSION', '2.0.1');
+define('MRTAI_VERSION', '2.0.2');
 
 define('MRTAI_PATH', get_template_directory() . "/");
 define('MRTAI_INCLUDES', MRTAI_PATH . 'includes/');
